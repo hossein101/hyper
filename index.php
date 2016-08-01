@@ -1,7 +1,7 @@
 <?php
 ob_start();
 define('API_KEY','');
-$admin = '46853604';
+$admin = '217705999';
 include("telegram.php");
 $telegram = new Telegram(API_KEY);
 function httpt($method,$datas=[]){
@@ -61,7 +61,7 @@ if(isset($update->message->text)){
 دریافت مشخصات شما
 
 
-سازنده:@arshiahp
+سازنده:@Ho3eIn_PaRcHaMdAre_FuCkEr_BoY
 ",
       'parse_mode'=>'HTML',
       'reply_markup'=>json_encode([
